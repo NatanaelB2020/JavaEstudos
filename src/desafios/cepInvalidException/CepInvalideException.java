@@ -1,4 +1,4 @@
-package cepInvalidException;
+package desafios.cepInvalidException;
 
 public class CepInvalideException extends Exception {
 }

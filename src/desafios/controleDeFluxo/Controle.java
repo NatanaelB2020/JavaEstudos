@@ -1,4 +1,4 @@
-package controleDeFluxo;
+package desafios.controleDeFluxo;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
@@ -8,27 +8,35 @@ public class Controle {
     public static void main(String[] args) {
 
         try {
+            // Cria um objeto Scanner para ler entrada do usuário.
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
+            // Solicita ao usuário que digite seu nome.
             System.out.println("Digite seu nome: ");
             String nome = scanner.next();
 
+            // Solicita ao usuário que digite seu sobrenome.
             System.out.println("Digite seu sobrenome: ");
             String sobrenome = scanner.next();
 
-            System.out.println("Digite sua idade");
+            // Solicita ao usuário que digite sua idade.
+            System.out.println("Digite sua idade: ");
             int idade = scanner.nextInt();
 
-            System.out.println("Digite sua altura: ");
-            Double altura = scanner.nextDouble();
+            // Solicita ao usuário que digite sua altura.
+            System.out.println("Digite sua altura (em centímetros): ");
+            double altura = scanner.nextDouble();
 
-            System.out.println("Olá me chamo " + nome.toUpperCase() + " " + sobrenome);
-            System.out.println("Tenho " + idade + " anos ");
-            System.out.println("Minha altura é " + altura + "cm ");
+            // Imprime informações sobre o usuário, incluindo nome, idade e altura.
+            System.out.println("Olá, meu nome é " + nome.toUpperCase() + " " + sobrenome);
+            System.out.println("Tenho " + idade + " anos.");
+            System.out.println("Minha altura é " + altura + " cm.");
+
+            // Fecha o objeto Scanner após a leitura dos dados.
             scanner.close();
-        } catch (InputMismatchException e){
-            System.out.println("Os campos Idade e Altura devem ser numericos");
-
+        } catch (InputMismatchException e) {
+            // Trata a exceção InputMismatchException caso os campos idade e altura não sejam numéricos.
+            System.out.println("Os campos Idade e Altura devem ser numéricos.");
         }
     }
 }

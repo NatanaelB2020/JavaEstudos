@@ -1,4 +1,4 @@
-package contador;
+package desafios.contador;
 
 public class ParametrosInvalidosException extends Exception{
 
