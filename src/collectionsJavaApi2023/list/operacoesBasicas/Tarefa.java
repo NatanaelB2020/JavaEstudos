@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.operacoesBasicas;
+package collectionsJavaApi2023.list.operacoesBasicas;
 
 public class Tarefa {
     private String descricao;

@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.operacoesBasicas;
+package collectionsJavaApi2023.list.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;

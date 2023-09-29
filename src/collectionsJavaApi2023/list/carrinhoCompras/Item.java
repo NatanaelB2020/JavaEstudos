@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.carrinhoCompras;
+package collectionsJavaApi2023.list.carrinhoCompras;
 
 public class Item {
     public String nome;

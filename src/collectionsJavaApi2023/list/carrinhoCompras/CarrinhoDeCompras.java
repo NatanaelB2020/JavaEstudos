@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.carrinhoCompras;
+package collectionsJavaApi2023.list.carrinhoCompras;
 
 import java.util.ArrayList;
 import java.util.List;
