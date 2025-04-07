@@ -1,3 +1,4 @@
+package estudoFor;
 public class For {
     public static void main(String[] args) {
         System.out.println("sistema..."); // Imprime "sistema..." no console
